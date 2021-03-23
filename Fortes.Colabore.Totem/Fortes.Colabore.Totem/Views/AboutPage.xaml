@@ -35,7 +35,7 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="Learn more at "/>
+                                <Span Text="{Binding BarCodeValue}"/>
                                 <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
                             </FormattedString.Spans>
                         </FormattedString>
